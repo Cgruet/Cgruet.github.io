@@ -95,19 +95,19 @@ nav {
   .banner {
     background-color: #d9b384;
     height: 300px;
-    width: 1887px;    
+    width: auto;    
   }
 
   .a1 {
     height: 75px;
-    width: 1887px;
+    width: auto;
     display: flex;
     justify-content: space-between;
   }
 
   .a2 {
     height: 275px;
-    width: 1887px;
+    width: auto;
     display: flex;
     justify-content: space-around;
     margin-top: -50px;    
