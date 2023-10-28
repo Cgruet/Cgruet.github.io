@@ -164,33 +164,71 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;  
+    padding: 50px 0;
+    box-sizing: border-box;
+    width: 15%;  
+  }
+
+  .helmet-fixture4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+    width: 25%;  
+  }
+
+  .helmet-fixture3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+    width: 33%;  
+  }
+
+  .helmet-fixture2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+    width: 50%;  
+  }
+
+  .helmet-fixture1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    box-sizing: border-box;
+    width: 100%;  
   }
 
   .helmet {
     height: auto;
-    width: 200px;
+    width: 280px;
     z-index:1;    
   }
 
   .mantle {
-    height: 400px;
-    width: 250px;
-    margin-top: -208px;
+    height: 592px;
+    width: 370px;
+    margin-top: -305px;
   }
 
   #melon-helmet {
-    margin-top: 17px;
-    margin-bottom: -17px;
+    margin-top: 24px;
+    margin-bottom: -24px;
   }
 
   .helmet-name {
-    width: 210px;
+    width: 300px;
     background-color: #BC941E;
     padding: 10px 0px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: century-gothic, sans-serif;
     text-align: center;
     border: solid #000 3px;
-    margin-top: -150px;
+    margin-top: -200px;
   }
