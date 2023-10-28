@@ -1,0 +1,196 @@
+html {
+  background-color: #3f403b;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navbar container */
+nav {
+    overflow: hidden;
+    background-color: #3f403b;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  nav a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  nav a:hover, .dropdown:hover .dropbtn {
+    background-color: #d9b384;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3f403b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: #d9b384;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Format reigning champions*/
+  .reigning {
+    background-color: #3f403b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid #d9b384 5px;
+  }
+
+  .reigning p {
+    font-size: 32px;
+    margin: 0;
+    padding: 8px;
+  }
+
+  .banner {
+    background-color: #d9b384;
+    height: 300px;
+    width: 1887px;    
+  }
+
+  .a1 {
+    height: 75px;
+    width: 1887px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .a2 {
+    height: 275px;
+    width: 1887px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -50px;    
+  }
+
+  .a1 div {
+    background-color: #3f403b;
+    height: 75px;
+    width: 164px;
+    opacity: 0.2;
+  }
+
+  .banner-text {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .a2 p {
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  .a2 .first {
+    color: #3f403b;
+  }
+
+  #logo1 {
+    padding-left: 100px;
+    padding-bottom: 20px;
+    z-index:1;
+    
+  }
+
+  #logo2 {
+    padding-right: 100px;
+    padding-bottom: 20px;
+    z-index:1;
+  }
+
+  .helmets {
+    background-color: #3f403b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .helmet-fixture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;  
+  }
+
+  .helmet {
+    height: auto;
+    width: 200px;
+    z-index:1;    
+  }
+
+  .mantle {
+    height: 400px;
+    width: 250px;
+    margin-top: -208px;
+  }
+
+  #melon-helmet {
+    margin-top: 17px;
+    margin-bottom: -17px;
+  }
+
+  .helmet-name {
+    width: 210px;
+    background-color: #BC941E;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-family: century-gothic, sans-serif;
+    text-align: center;
+    border: solid #000 3px;
+    margin-top: -150px;
+  }

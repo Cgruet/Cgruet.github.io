@@ -1,0 +1,26 @@
+.owners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.owner {    
+    margin: 30px 10px;
+    width: 280px;
+}
+
+.owner img {
+    height: 280px;
+    width: 280px;
+}
+
+.info {
+    background-color: #d3d3d3;
+    padding: 10px;
+    height: 380px;
+}
+
+.info p {
+    margin: 8px 0;
+}
